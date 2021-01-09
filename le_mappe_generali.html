@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+<title>LE MAPPE GENERALI</title>
+<meta name="author" content="Andrea Spreafico"/>
+<meta name="description" content="La mappa dell'altro lato di Milano-LE MAPPE"/>
+<meta name="keywords" content="MAPPA"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+<body lang="it">
+
+<header>
+<a href="../home.html"><h1>OrientaMi</h1></a>
+<h2>LE MAPPE GENERALI</h2>
+<a href="javascript:void(0)" class="menubar" onclick="toggle()">&#9776</a>
+
+
+<nav class="menu"><ul>
+<li><a href="../home.html">HOME</a></li>
+<li><a href="javascript:void(0)" onclick="toggle1()">LE MAPPE</a>
+<ul class="submenu-mappe">
+<li><a href="#">Aule studio</a></li>
+<li><a href="#">Locali studio</a></li>
+<li><a href="#">Luoghi di socialità</a></li>
+<li><a href="#">Consultori</a></li>
+<li><a href="#">Centri Anti Violenza</a></li>
+<li><a href="#">Mangiare</a></li>
+<li><a href="#">Sport sostenibile</a></li>
+<li><a href="#">Teatri</a></li>
+<li><a href="#">Virus e Vaccini Resistenti</a></li>
+<li><a href="#">Librerie indipendenti</a></li>
+<li><a href="#">Musei</a></li>
+<li><a href="#">Cinema</a></li>
+<li><a href="#">Spazi espositivi</a></li></ul></li>
+<li><a href="..\OrientaMi\come_usare_il_sito.html">COME FUNZIONA IL SITO</a></li>
+<li><a href="..\OrientaMi\scopri_il_progetto.html">SCOPRI IL PROGETTO</a></li>
+<li><a href="..\OrientaMi\chi_siamo.html">CHI SIAMO</a></li>
+<li><a href="..\OrientaMi\contatti.html">CONTATTI</a></li></ul></nav></header>
+
+
+<div class="boxtext"><p>Per cercare le indicazioni stradali seleziona il luogo prescelto e premi l’icona 
+<img id="text-img" src="immagini/icone/maps.png">
+(in alto a sinistra), verrai rimandato alla pagina di google maps.</p></div>
+
+<div class="map-div">
+<h2 class="boxtext">SERVIZI, SOCIALITÀ E ATTIVISMO</h2>
+<div class="boxmodel"><iframe class="map" src="https://www.google.com/maps/d/u/1/embed?mid=1X2O0KwoEf-s1rP_OlXDuRwuPHFALH4-t">Il tuo browser non supporta gli iframe </iframe></div></div>
+
+<div class="map-div">
+<h2 class="boxtext">CULTURA, MEMORIA E STORIA ANTIFASCISTA</h2>
+<div class="boxmodel"><iframe class="map" src="https://www.google.com/maps/d/u/1/embed?mid=11DusNtXKFUGSAX2sz9PXmYEAIx8prTZJ">Il tuo browser non supporta gli iframe </iframe></div></div>
+
+<footer class="footer">Mail del progetto <a href="orientami.scu@gmail.com">orientami.scu@gmail.com</a></footer>
+
+<script>function toggle() {if (document.getElementById("menu").style.display == "none") {
+document.getElementById("menu").style.display = "block";} else {
+document.getElementById("menu").style.display = "none";}}
+
+function toggle1() {if (document.getElementById("submenu-mappe").style.display == "none") {
+document.getElementById("submenu-mappe").style.display = "block";} 
+else {document.getElementById("submenu-mappe").style.display = "none";}}</script>
+
+</body></html>

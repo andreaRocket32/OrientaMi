@@ -1,0 +1,55 @@
+@media screen and (max-width:1024px){
+
+h1{ 
+    display:none;
+}
+
+h2{
+    display:block;
+    width:100%;
+    margin:0 0 10px 0;
+}
+
+#menu{
+    margin:0 0 10px 0;
+    width:100% ;
+    display:none;
+}
+
+#menubar{
+ text-decoration:none;
+ color: white;
+font-size:200%;
+display: block;
+margin-left: 45%;
+margin-right: 45%;
+text-align:center;
+padding-bottom: 10px;
+}
+
+#sub-menu3{ 
+z-index:0;
+position: static;
+background-color: transparent;
+display:none;
+text-align:center;
+margin-left: 25%;
+margin-right:25%;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+.map-div {
+    padding: 20px 0%;
+}
+
+.titlemap{
+     width:100%;
+    margin-left:0;
+    margin-right:0;
+    
+}
+
+}

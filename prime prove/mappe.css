@@ -1,0 +1,185 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url('../immagini/immagini/Sfondo.jpg');
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(240, 0, 51, 0.8);
+    -webkit-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    padding-top: 10px;
+}
+
+h1{
+    width: 20%;
+    font-size: 280%;
+    text-align: center;
+    font-family: 'signika';
+    color: #FFFFFF;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h2{
+    width: 25rem;
+    /*i REM sono un'unità di misura proporzionale alla grandezza carattere, 
+	ti ho messo 15rem in modo che il box sia largo come una quindicina di lettere.
+	Puoi aumentare o diminuire. La larghezza di prima, 20%, quando avevi schermi più piccoli impazziva
+	In alternativa puoi usare i px*/
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'signika';
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#menubar{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+#menu{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    font-family: 'signika';
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#menu a:after{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#menu a:hover, #menu a:active{
+    color: #FFFFFF;
+    background-color: #222222;
+}
+
+#sub-menu3{
+    z-index: 1;
+    width: 9rem;
+    visibility: hidden;
+    position: absolute;
+    display: block;
+    background-color: rgb(240, 0, 51, 0.8);
+}
+
+#sub-menu3 a{
+    margin: 0;
+}
+
+#menu li:hover #sub-menu3{
+    visibility: visible;
+}
+
+.titlemap{
+    background-color: rgb(240, 0, 51, 0.8);
+    margin:25px;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'signika';
+    -webkit-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    padding: 5px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.map{
+    width: 100%;
+    /*occupa tutto lo spazio disponibile all'interno del map-div*/
+    height: 500px;
+    z-index: -1;
+    border-radius: 4px;
+    -webkit-box-shadow: 28px 28px 20px -13px rgba(31, 31, 31, 1);
+    -moz-box-shadow: 28px 28px 20px -13px rgba(31, 31, 31, 1);
+    box-shadow: 28px 28px 20px -13px rgba(31, 31, 31, 1);
+}
+
+.map-div{
+    padding: 20px 15%;
+    /*Il padding del div definisce la spaziatura dell'iframe, al momento c'è un padding verticale di 35px e orizzontale del 15% della finestra sia a dx che sx*/
+}
+
+.footer{
+    font-family: 'signika';
+    color: #222222;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+    width: 100%;
+}
+
+.descrizione{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'signika';
+    color: white;
+    background-color: rgb(240, 0, 51, 0.8);
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#comeconsultare{
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+    font-family:'signika';
+    color: white;
+    background-color: rgb(240, 0, 51, 0.8);
+    padding: 5px;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    border-radius: 4px;
+    -webkit-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: -11px -8px 65px 0px rgba(0, 0, 0, 0.65);
+}
+
+#imagineconsultare{
+    width:35px ;
+}

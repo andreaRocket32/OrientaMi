@@ -1,0 +1,68 @@
+@media screen and (max-width:1024px){
+
+body{
+	background-image:url('../immagini/immagini/Sfondo.jpg');
+	background-attachment:fixed;
+	background-color:#FFFFFF; 
+	background-position: center center;
+	margin:0;
+	padding:0;
+}
+
+header{
+	background-color:rgb(240,0,51,0.8);
+	-webkit-box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+	box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+	padding-top:15px;
+}
+
+h1{display: none;}
+
+h2{
+    width: 25rem; 
+    margin-left: 40%;
+    margin-right: 40%;
+	font-size: 200%;
+	font-weight:bold;
+    text-align: center;
+    font-family: 'signika';
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#menubar{
+	text-decoration:none;
+	color: white;
+   font-size:200%;
+   display: block;
+   margin-left: 45%;
+   margin-right: 45%;
+   text-align:center;
+   padding-bottom: 10px;
+}
+
+#menu{
+    margin:0 0 10px 0;
+    width:100% ;
+    display:none;
+}
+
+.elenco{ 
+	padding-left:15px;
+}
+
+.elenco a:hover{
+color:rgb(70, 70, 70,0.9);
+
+}
+
+#descrizioni{
+    padding:10px;
+	margin:0;
+	margin-top:30px;
+}
+	
+}

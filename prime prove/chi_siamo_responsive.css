@@ -1,0 +1,38 @@
+@media screen and (max-width:1024px){
+
+h1{
+    display:none;
+}
+
+h2{margin:0;}
+
+#menu{
+    width:100%;
+    margin:0 0 10px 0;
+    display:none;
+}
+
+#descrizioni{
+	background-color:rgb(240,0,51,0.8);
+	font-family:'signika';
+	color:white;
+	-webkit-box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+	box-shadow: -11px -8px 65px 0px rgba(0,0,0,0.65);
+    padding:10px;
+    margin:0;
+    margin-top:30px ;
+}
+
+#menubar{
+        display: none;
+        text-decoration:none;
+        color: white;
+       font-size:200%;
+       display: block;
+       margin-left: 45%;
+       margin-right: 45%;
+       text-align:center;
+       padding-bottom: 10px;
+       }
+}

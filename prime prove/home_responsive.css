@@ -1,0 +1,178 @@
+@media screen and (max-width:1024px){
+
+h1{ font-size:auto;
+    display:block;
+    width:100%;
+    margin:0 0 10px 0;
+}
+#menu{
+    width:100%;
+    margin:0 0 10px 0;
+    display: none;
+}
+
+#menu li{
+    display:block;
+}
+
+#menu li a{
+    display:block;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.boxmodel1{
+    display:block;
+    margin:0;
+}
+
+.boxmodel2{
+    display:block;
+    margin:0;
+}
+
+.boxmodel3{
+    display:block;
+    margin:0;
+}
+
+.boxmodel4{
+    display:block;
+    margin:0;
+}
+
+#contribuisci{
+    font-size: 160%;
+    width:100%;
+    display: block;
+    margin:0;
+    margin-top:15px;
+}
+
+#fuorisede{
+    font-size: 160%;
+    width:100%;
+    display:block;
+    margin:0;
+    margin-top:15px;
+}
+
+.box{
+   width: 100%;
+   height:50px;
+    display:block;
+    margin:0;
+    margin-bottom:10px;
+    font-size:2.2rem;
+}
+
+#box1{
+	background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box2{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box3{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box4{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box5{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box6{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box7{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box8{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box9{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box10{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box11{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+#box12{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box13{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box14{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box15{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box16{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box17{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box18{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box19{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+#box20{
+    background-size:70px 70px;
+	background-position: 10px 5px;	
+}
+
+.titlemap{
+    font-size: 240%;
+    width:100%;
+    display:block;
+    margin:0;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.menubar{
+        display: none;
+        text-decoration:none;
+        color: white;
+       font-size:200%;
+       display: block;
+       margin-left: 45%;
+       margin-right: 45%;
+       text-align:center;
+       padding-bottom: 10px;
+       }
+}

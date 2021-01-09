@@ -1,0 +1,32 @@
+@media screen and (max-width:1024px){
+
+h1{
+    display:none;
+}
+
+h2{margin:0;}
+
+#menu{
+    width:100%;
+    margin:0 0 10px 0;
+    display:none;
+}
+
+#comefunziona{
+	width:100%;
+	margin:0;
+	margin-top: 30px;
+}
+
+#menubar{
+	display: none;
+	text-decoration:none;
+	color: white;
+   font-size:200%;
+   display: block;
+   margin-left: 45%;
+   margin-right: 45%;
+   text-align:center;
+   padding-bottom: 10px;
+   }
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width:1024px){
+h1{display: none;
+}
+
+h2{
+    width: 25rem;
+    margin-left: 40%;
+    margin-right: 40%;
+	font-size: 200%;
+	font-weight:bold;
+    text-align: center;
+    font-family: 'signika';
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h3{ 
+    font-family:'signika';
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	display: inline-block;
+	background-color:rgb(240,0,51,0.8);	
+	width:20%;
+	padding:5px;
+
+}
+
+#menubar{
+	text-decoration:none;
+	color: white;
+   font-size:200%;
+   display: block;
+   margin-left: 45%;
+   margin-right: 45%;
+   text-align:center;
+   padding-bottom: 10px;
+}
+
+#menu{
+    margin:0 0 10px 0;
+    width:100% ;
+    display:none;
+}
+
+.consigliaMi{
+	width:100%;
+
+}
+
+
+}
