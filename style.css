@@ -134,7 +134,7 @@ text-align: left;
 	color:rgb(34,34,34,0.9);
 }
 
-.pulsante:hover, .pulsante:active, .menu a:hover, .box:hover, .box:active{
+.pulsante:hover, .pulsante:active, .box:hover, .box:active{
 	color:#FFFFFF;
 	background-color:rgb(34,34,34,0.9); 
 }
