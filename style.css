@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, ul, li, p, .footer, .box, .boxtext, .menu,.menu a, .menu
 	margin: 0;
 	text-align:center;
 }
-h1, h2, h3, h4, h5, h6, .menu a, .pulsante {
+h1, h2, h3, h4, h5, h6, .menu a, .pulsante{
     font-weight:bold;
 }
 h1{
@@ -120,7 +120,7 @@ border-radius:4px;
 text-align: left;
 }
 .pulsante{
-	display: ;
+	display: block;
 	background-color:rgba(255, 158, 47, 0.8);
     border-radius:4px;
     padding:1rem;
@@ -195,7 +195,9 @@ text-align: left;
 
 /* MAPPE */
 
-#text-img{ width:1.5rem;}
+#text-img{ 
+	width:1.5rem;
+}
 
 .map{
 	width:100%;
@@ -203,21 +205,19 @@ text-align: left;
 	border-radius:4px;	
 }
 
-/*!RESPONSIVE!*/     /*!RESPONSIVE!*/
+/*!RESPONSIVE!*/   /*!RESPONSIVE!*/
 
 @media screen and (max-width:1024px){
 
 /* PAGINA HOMEPAGE */
 
-
-
-
-
-
+.superboxflex{
+	display:block;
 }
-
-
-
+.boxblock{
+	display: inline;
+}
+}
 
 @media screen and (max-width:768px){
 
