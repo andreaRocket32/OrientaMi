@@ -19,7 +19,14 @@
 
 <nav id="menu"> 
 <ul><li><a href="../OrientaMi/home.html">HOME</a></li>
-<li><a href="../OrientaMi/le_mappe_generali.html">LE MAPPE</a></li>
+<li><a href="javascript:void(0)" class="submenu" onclick="toggleSubmenu(0)" >LE MAPPE</a></li>
+	<ul id="submenu-mappe">
+<li>zanzara</li>
+<li>figura</li>
+<li>gatto</li>
+<li>zorro</li>
+</ul>
+
 <li><a href="../OrientaMi/come_usare_il_sito.html">COME FUNZIONA IL SITO</a></li>
 <li><a href="../OrientaMi/scopri_il_progetto.html">SCOPRI IL PROGETTO</a></li>
 <li><a href="../OrientaMi/chi_siamo.html">CHI SIAMO</a></li>
@@ -82,7 +89,14 @@
 <script>function toggle() {
 		if(document.getElementById("menu").style.display == "none"){
 		document.getElementById("menu").style.display = "block";}
-		else{document.getElementById("menu").style.display = "none";}}</script>
+		else{document.getElementById("menu").style.display = "none";}}
+		
+		function toggleSubmenu() {
+		if(document.getElementById("submenu-mappe").style.display == "none"){
+		document.getElementById("submenu-mappe").style.display = "block";}
+		else{document.getElementById("submenu-mappe").style.display = "none";}}
+		
+		</script>
 
 
 </body></html>

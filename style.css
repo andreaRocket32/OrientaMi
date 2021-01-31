@@ -66,6 +66,16 @@ header{
     display: none;
 }
 
+#submenu-mappe{
+	display: none;
+	float: left;
+	width:80px;
+	padding:0.5rem;
+	z-index: 1;
+
+}
+
+
 /* FOOTER */
 
 .footer{
