@@ -11,13 +11,13 @@ body{
 
 /* TIPOGRAFIA */
 
-h1, h2, h3, h4, h5, h6, ul, li, p, .footer, .box, .boxtext, .menu,.menu a, .menubar, .pulsante, .elenco, .elenco a{
+h1, h2, h3, h4, h5, h6, ul, li, p, .footer, .box, .boxtext, #menu,#menu a, .menubar, .pulsante, .elenco, .elenco a{
 	font-family: 'signika';
 	color: #FFFFFF;
 	margin: 0;
 	text-align:center;
 }
-h1, h2, h3, h4, h5, h6, .menu a, .pulsante{
+h1, h2, h3, h4, h5, h6, #menu a, .pulsante{
     font-weight:bold;
 }
 h1{
@@ -47,10 +47,10 @@ header{
 	margin:1rem;
 	margin-top:0;
 }
-.menu li{
+#menu li{
 	display:inline-block;
 }
-.menu a{
+#menu a{
 	padding:1rem;
 	display:inline-block;
 }
@@ -88,7 +88,7 @@ box-shadow: 12px 12px 0px 1px rgba(0,0,0,0.7);*/}
 
 /* TRANSIZIONI */
 
-.pulsante,.menu a,.box :after, .box{
+.pulsante,#menu a,.box :after, .box{
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -97,6 +97,7 @@ box-shadow: 12px 12px 0px 1px rgba(0,0,0,0.7);*/}
 /* COMUNI */
 
 .boxspace{ 
+	flex-wrap: wrap;
 	display:flex;
     justify-content:center;
 	margin-bottom:1rem;
@@ -131,7 +132,7 @@ text-align: left;
 	margin: 1rem;
 }
 
-.elenco a:hover, .menu a:hover, .menu a:active{
+.elenco a:hover, #menu a:hover, #menu a:active{
 	color:rgb(34,34,34,0.9);
 }
 
@@ -148,15 +149,16 @@ text-align: left;
     border-radius:4px;
     padding:1rem;
 	margin:1rem;
-	width:55rem;
+	width:100%;
 }
 
 .superboxflex{
-	justify-content: center;
+	justify-content:center;
 	display:flex;
 }
 .boxblock{
 	display: block;
+	width: 100%;
 }
 .box{
     font-size:1rem;
@@ -165,7 +167,6 @@ text-align: left;
 	background-color:rgb(70, 70, 70,0.9);
 	padding:1rem;
 	margin:1rem;	
-	display:inline-block;
 	border-radius:4px;
     
     background-size:80px 80px;
@@ -231,7 +232,7 @@ h2{margin:0;}
 header{
 	margin:0;
 }
-.menu{
+#menu{
 		width:100%;
 		margin:0 auto;
 		display:none;
@@ -242,6 +243,11 @@ header{
     display: block;
     padding-bottom:1rem;}
 	   	
+#menu li{ 
+    width:100%;
+}
+
+
 /* COMUNI */
 
 .boxmodel, .boxtext,.pulsante{
@@ -256,12 +262,18 @@ margin-right:0;
 	width:100%;
 }
 
+
 /* PAGINA HOMEPAGE */
 
 #title-home { display:block;}
 
+.pulsante-home{
+margin: 0 auto;
+margin-bottom: 1rem;
+}
+
 #riga-pulsanti-home{
-    display: block;
+	display: block;
 }
 .box{
 width:100%;
